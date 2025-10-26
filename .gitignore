@@ -1,0 +1,76 @@
+# ============================================
+# 📁 GENERAL PYTHON / ML PROJECT .gitignore
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.out
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+pytest_cache/
+
+# Environment variables
+.env
+*.env
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data files
+*.csv
+*.tsv
+*.txt
+*.json
+*.xml
+*.yaml
+*.yml
+
+# Large datasets / models
+models/
+checkpoints/
+*.h5
+*.pkl
+*.joblib
+
+# Plots, figures, or generated outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# ============================================
+# ✅ End of .gitignore
+# ============================================
